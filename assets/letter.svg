@@ -1,0 +1,36 @@
+<svg width="104px" height="104px" viewBox="-9 -16 104 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.654,0.608 C0.564,1.346 1.085,2.178 2.218,3.103 L21.552,18.935 C22.401,19.626 23.516,19.972 24.628,19.972 C25.742,19.972 26.855,19.628 27.7,18.935 L47.04,3.103 C48.17,2.178 48.675,1.341 48.554,0.589 L0.654,0.608 Z" id="path-1"></path>
+        <path d="M0.344,17.889 C-0.087,27.68 7.504,35.968 17.299,36.401 C27.091,36.832 35.382,29.242 35.815,19.453 C36.246,9.659 28.656,1.373 18.86,0.941 C18.594,0.928 18.329,0.922 18.063,0.922 C8.622,0.924 0.763,8.365 0.344,17.889 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPad-Pro" transform="translate(-278.000000, -343.000000)">
+            <g id="ICONS" transform="translate(146.000000, 41.000000)">
+                <g id="EMAIL" transform="translate(0.000000, 271.000000)">
+                    <g id="END" transform="translate(132.000000, 30.000000)">
+                        <g id="END_ENVELOPE" transform="translate(18.000000, 23.000000)">
+                            <polygon id="Fill-15" fill="#F2A600" points="0.644 27.249 48.33 27.249 48.33 1.341 0.644 1.341"></polygon>
+                            <g id="FLAP" transform="translate(0.000000, 0.905000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-17"></g>
+                                <polygon id="Fill-16" fill="#F8C636" mask="url(#mask-2)" points="-8.878 35.865 57.852 35.865 57.852 -31.884 -8.878 -31.884"></polygon>
+                            </g>
+                        </g>
+                        <g id="END_CHECKCIRCLE" transform="translate(0.000000, 0.905000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="Clip-20"></g>
+                            <polygon id="Fill-19" fill="#00BCD4" mask="url(#mask-4)" points="-7.5 44.245 43.66 44.245 43.66 -6.904 -7.5 -6.904"></polygon>
+                            <polygon id="Fill-22" fill="#FFFFFF" mask="url(#mask-4)" points="15.1799 21.9106 9.8489 16.5836 7.5959 18.8346 12.9249 24.1636 12.9219 24.1656 15.1749 26.4186 15.1799 26.4156 15.1819 26.4186 17.4349 24.1656 17.4339 24.1636 28.3139 13.2856 26.0579 11.0336"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

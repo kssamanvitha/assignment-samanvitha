@@ -1,0 +1,403 @@
+/*next section*/
+
+.next-section{
+    background-color: #4b9e58;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 70px;
+    height: 50px;
+    padding: 55px 0;
+}
+.next-section .text{
+    color: #fff;
+    font-size: 22px;
+    text-align: right;
+}
+
+/*for arrow circle animation*/
+.next-section button {
+    background: none;
+    border: 0;
+    color: #fff;
+    font-size: inherit;
+    font-weight: 700;
+    position: relative;
+    vertical-align: middle;
+}
+.next-section button::before, .next-section button::after {
+    box-sizing: inherit;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.next-section .spin {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    transition: all 0.5s ease-in-out;
+}
+.next-section .spin:hover {
+    color: #fff;
+}
+.next-section .spin::before, .next-section .spin::after {
+    top: 0;
+    left: 0;
+    /*transition: border-top-color 0.15s linear, border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+    transform: rotate(-270deg);*/
+    /*transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s;*/
+
+}
+.next-section .spin::before {
+
+    /*transition: border-top-color 0.15s linear, border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;*/
+    /* transform: rotate(270deg);
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s;*/
+
+    border-top-color: #fff;
+    border-right-color: #fff;
+    border-bottom-color: #fff;
+    transition: border-top-color 0.15s linear, border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+
+}
+.next-section .spin::after{
+    border-top: 2px solid #fff;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transform: rotate(270deg);
+    transition: transform 0.14s linear 0s, border-left-width 0s linear 0.15s;
+}
+.next-section .spin::before {
+    border: 2px solid transparent;
+}
+.next-section .spin:hover::before {
+    border-top-color: #fff;
+    border-right-color: #fff;
+    border-bottom-color: #fff;
+    transition: border-top-color 0.15s linear, border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+}
+.next-section .spin::after {
+    border: 0 solid transparent;
+}
+.next-section .spin:hover::after {
+    border-top: 2px solid #fff;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    transform: rotate(270deg);
+    transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s;
+}
+.next-section .circle {
+    border-radius: 100%;
+    box-shadow: none;
+}
+.next-section .circle::before, .next-section .circle::after {
+    border-radius: 100%;
+}
+/* Page styling */
+
+
+
+
+
+
+
+
+
+
+
+/*next section */
+
+/*subs- section*/
+
+
+.subscribe-section{
+    padding: 96px 0;
+}
+.subscribe-section .container {
+    width: 750px;
+    padding: 0;
+    margin: auto;
+}
+
+.subs-outer{
+    padding: 0;
+
+}
+
+.subscribe-section .subs-icon{
+    position: relative;
+}
+.subscribe-section .subs-icon .icon-bg, .subscribe-section .subs-icon .icon-fg{
+    position: absolute; 
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.subscribe-section .subs-icon .icon-bg{
+    left: 0;
+    top: 0;
+}
+
+
+
+.subs-content{
+    width: 425px;
+    padding: 20px 0;
+    float: left;
+    margin-left: 120px;
+    position: relative;
+}
+
+.subs-content .title{
+    color: #17a162;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.subs-content .sub-text{
+    font-size: 15px;
+    color: #888b8d;
+    font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+
+}
+
+.subscribe-section .subs-button{
+    background-color: #0f9d58;
+    padding: 12px 15px;
+    margin: 0;
+    border-radius: 3px;
+    display: inline-block;
+    float: right;
+    margin: 30px 10px;
+    width: 140px;
+    transition: all 0.5s ease;
+    text-align: center;
+}
+.subscribe-section .subs-button a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    vertical-align: bottom;
+    text-decoration: none;
+    text-align: center;
+}
+.subscribe-section .subs-button i{
+    display: none;
+    /*    float: left;*/
+    -webkit-transform: translate(0px, 0px) translateX(0px);
+    transform: translate(0px, 0px) translateX(0px);
+    transition: .3s transform linear, .3s width linear .3s;
+}
+
+.subscribe-section .subs-button a:hover{
+    text-decoration: none;
+    /*
+    -webkit-transform: translate(0px, 0px) translateY(-10px);
+    transform: translate(0px, 0px) translateY(-10px);
+    transition: .3s transform linear, .3s height linear .3s;
+    */
+}
+.subscribe-section .subs-button:hover i{
+    /*    text-decoration: none;*/
+    display: inline-block;
+    float: right;
+    -webkit-transform: translate(0px, 0px) translateX(10px);
+    transform: translate(0px, 0px) translateX(10px);
+    transition: .3s transform linear, .3s width linear .3s;
+}
+
+@media only screen and (min-width: 920px) and (max-width: 1439px) {
+    .subscribe-section .container {
+        width: 750px;
+    }
+    .subs-content .title{
+        font-size: 18px
+    }
+    .subs-content .sub-text{
+        font-size: 13px;       
+    }
+}
+
+@media only screen and (min-width: 640px) 
+{
+    .subscribe-section .subs-icon:hover{
+        -webkit-transform: translate(0px, 0px) translateY(-10px);
+        transform: translate(0px, 0px) translateY(-10px);
+        transition: .3s transform linear, .3s height linear .3s;
+
+    }
+
+    .subscribe-section .subs-icon .icon-fg:hover{
+        -webkit-transform: translate(0px, 0px) translateY(-10px);
+        transform: translate(0px, 0px) translateY(-10px);
+        transition: .3s transform linear, .3s height linear .3s;
+
+    }
+    .subscribe-section .subs-icon{
+        -webkit-transform: translate(0px, 0px) translateY(0px);
+        transform: translate(0px, 0px) translateY(0px);
+        transition: .3s transform linear, .3s height linear .3s;
+
+    }
+
+    .subscribe-section .subs-icon .icon-fg{
+        -webkit-transform: translate(0px, 0px) translateY(0px);
+        transform: translate(0px, 0px) translateY(0px);
+        transition: .3s transform linear, .3s height linear .3s;
+
+    }
+}
+/*subs- section*/
+
+
+
+.footer{
+    background-color: #f7f7f7;
+    padding: 85px 0 55px;
+    position: relative;
+    font-size: 12px;
+    color: #888b8d;
+}
+
+.footer .logo {
+    margin: 0 0 15px;
+}
+
+.footer .logo img{
+    max-height: 22px;
+
+}
+.footer .title {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.footer .footer-link-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer  a  {
+    color: #888b8d;
+}
+
+.footer .menu-links {
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+.footer .menu-links a{
+    margin-right: 18px;
+}
+
+@media only screen  and (max-width: 639px)
+{
+    .footer .title{
+
+    }
+    .footer .block{
+        width: 100% !important;
+        margin-bottom: 40px !important;
+
+    }
+
+    .footer .menu-links{
+        text-align: center;
+        margin: auto;
+
+    }
+
+}
+@media only screen and (min-width: 1440px)
+{
+    .footer .container {
+        width: 1280px;
+    }
+}
+
+@media only screen and (min-width: 920px) and (max-width: 1439px){
+    .footer .container {
+        width: 860px;
+    }
+}
+/*chat section*/
+
+
+.chat-section{
+    background-color: #F5F5F5;
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    height: auto;
+    width:auto; 
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.25);
+    padding: 14px 25px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.chat-box{
+    display: table;
+
+}
+
+.chat-help-icon{
+    font-family: 'Material Icons';
+    font-size: 20px;
+    color: #0f9d58;
+    display: inline-block;
+    float: left;
+    padding: 10px 0;
+    margin-right: 13px;
+
+}
+.chat-box .content{
+    float: left;
+
+}
+
+.chat-box .title{
+    color: #0f9d58;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.chat-box .sub-text{
+    color: gray;
+    margin-top: 2px;
+    font-size: 12px;
+
+
+}
+
+.chat-show-on-hover {
+    display: none;
+    position: fixed;
+    bottom: 88px;
+    right: 15px;  
+
+}
+.chat-show-on-hover .chat-box{
+    background-color: #EBEBEB;
+    cursor: pointer;
+    height: auto;
+    width:auto; 
+    border-bottom: 1px solid #ddd;
+    padding: 14px 25px;
+    width: 200px;
+
+}
+
+.chat-section:hover  .chat-show-on-hover {
+    display: inline-block;
+}
+.chat-box a:hover{
+    text-decoration: none;
+}
+
+
+/*chat section*/

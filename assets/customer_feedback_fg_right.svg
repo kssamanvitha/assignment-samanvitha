@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="612px" height="430px" viewBox="0 -30 612 430" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>stars fg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="612" height="430"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="612" height="430" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="612" height="430" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Plans" transform="translate(-758.000000, -1234.000000)">
+            <g id="stars-fg" transform="translate(758.000000, 1234.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask" stroke-opacity="0.01" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="2">
+                    <use mask="url(#mask-4)" xlink:href="#path-1"></use>
+                </g>
+                <g id="Page-1" mask="url(#mask-3)">
+                    <g transform="translate(6.000000, 115.000000)">
+                        <path d="M593,62 L593,69" id="Stroke-1" stroke="#00ACC1" stroke-width="2" stroke-linecap="round" fill="none"></path>
+                        <path d="M590,66 L597,66" id="Stroke-3" stroke="#00ACC1" stroke-width="2" stroke-linecap="round" fill="none"></path>
+                        <path d="M504.3909,135.073 C504.3909,137.323 506.2149,139.146 508.4639,139.146 C510.7139,139.146 512.5369,137.323 512.5369,135.073 C512.5369,132.823 510.7139,131 508.4639,131 C506.2149,131 504.3909,132.823 504.3909,135.073" id="Fill-25" stroke="none" fill="#F2F8EA" fill-rule="evenodd"></path>
+                        <path d="M504.3909,135.2032 C504.3909,137.4532 506.2149,139.2762 508.4639,139.2762 C510.7139,139.2762 512.5369,137.4532 512.5369,135.2032 C512.5369,132.9532 510.7139,131.1302 508.4639,131.1302 C506.2149,131.1302 504.3909,132.9532 504.3909,135.2032 L504.3909,135.2032 Z" id="Stroke-27" stroke="#679F42" stroke-width="2" fill="none"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

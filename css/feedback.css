@@ -1,0 +1,372 @@
+.feedback-pic{
+    display: table;
+    max-width: 100px; 
+    float: left; 
+    padding: 15px 0;
+}
+.feedback-pic img{
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.feedback-handle {   
+    text-align: center;  
+    display: inline-block;
+}
+.feedback-handle a {
+    display: block;
+    text-decoration: none; 
+    color: gray;
+
+}
+.feedback-handle a,
+.feedback-handle a:after,
+.feedback-handle a:before {
+    transition: all .3s;
+}
+.feedback-handle a:hover {
+    color: #17a162;
+}
+
+
+.feed-back-section{
+    position: relative;
+    height: auto; 
+    /*
+    padding-top: 50px ;
+    margin-top: 30px;
+    */
+}
+.feedback-text::before{
+    content: "“";
+    top: 0px;
+    position: absolute;
+    left: -10px;
+    color: rgb(0, 188, 212);
+}
+.feedback-text::after{
+    content: "”";
+    color: rgb(0, 188, 212);
+}
+
+/* stroke */
+.stroke .feedback-handle a {
+    position: relative;
+}
+.stroke .feedback-handle a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background-color: #17a162;
+    height: 2px;
+}
+.stroke .feedback-handle  a:hover:after {
+    width: 100%;
+}
+
+
+.feedback-text{
+    color: #808080;
+    position: relative;
+}
+.feedback-text{
+    height: 90px;
+}
+
+
+.feedback-handle{
+    color: #808080;
+}
+
+
+.feedback-section{
+    margin-top:30px;
+    padding: 0 50px;
+    position: relative;
+    max-height: 95px;
+}
+.feedback-outer .fb-left , .feedback-outer .fb-right{
+    float: left; padding: 0 50px;
+    width: 50%;
+}
+
+
+.feedback-section .parallax {
+    position: absolute;
+    /*    height: 300px;*/
+    height: 430px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+}
+
+
+
+
+
+@media only screen and (min-width: 1440px){
+
+
+    .feedback-handle{
+        font-size: 16px;
+        display: inline-block;
+    }
+
+    .feedback-bg{
+        position: absolute;
+    }
+    .parallax img.left {
+        left: 65px;
+        top: -145px;
+        position: absolute;
+        max-height: 100%;
+
+    }
+    .parallax img.right {
+        right: 40px;
+        top: -150;
+        position: absolute;
+        max-height: 100%;
+    }
+
+    .fb-left-bg{
+
+        float: left;
+        margin-top: -150px; 
+        margin-left: -50px;
+        position: absolute;
+
+    }
+
+    .fb-right-bg{
+        float: right;
+        margin-top: -150px; 
+        margin-right:  -50px;
+        position: absolute;
+    }
+
+    .feedback-outer{        
+        margin: 75px 0;
+        padding: 0 140px;
+
+    }
+
+
+    .feedback-pic img{
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .feedback-content{      
+        float: right;
+        padding-left: 50px;
+        width: calc(100% - 105px);
+    }
+
+    .feedback-text{
+        font-size: 19px;
+        position: relative;
+
+    }
+
+
+
+
+}
+
+
+@media only screen and (min-width:320px) and (max-width: 639px){
+    .feedback-outer .fb-left , .feedback-outer .fb-right{
+        width: 100%;
+    }
+
+    .feedback-text{
+        font-size: 12px;
+        height: 50px;
+    }
+
+    .feedback-pic img{
+        width: 65px;
+        height: 65px;
+    }
+    .feedback-handle{
+        font-size: 10px;
+    }
+    .feedback-content{
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+    .feedback-outer .fb-left, .feedback-outer .fb-right {
+        padding: 10px;
+    }
+
+    .feedback-outer .fb-left  {
+        margin-bottom: 23px;
+    }
+    .feature-title {
+        font-weight: 400 !important;
+    }
+    .feature-btn {
+        font-size: 12px !important;
+    }
+
+
+}
+
+@media only screen and (min-width: 640px) and (max-width: 768px){
+
+       .feedback-text {
+        height: 90px;
+        font-size: 12px;
+        width: 185px;
+        /*        margin-left: 80px;*/
+    }
+    .feedback-outer{
+        padding: 50px 25px;
+        padding-bottom: 0;
+    }
+    .feedback-handle{
+        font-size: 10px;
+    }
+
+    .feedback-content{
+        padding-left: 80px;
+    }
+    
+}
+
+
+
+@media only screen and (min-width:640px) and (max-width: 919px){
+   
+    .feedback-outer .fb-left , .feedback-outer .fb-right{
+    }
+
+    .feedback-pic img{
+        max-width: 65px;
+        max-height: 65px;
+    }
+    .parallax img.left {
+        left: 3px;
+        top: -108px;
+        position: absolute;
+        max-height: 100%;
+        max-width: 400px;
+
+    }
+    .parallax img.right {
+        right: 12px;
+        top: -110px;
+        position: absolute;
+        max-height: 100%;
+        max-width: 400px;
+
+    }
+    
+     .feedback-text {
+        height: 90px;
+        font-size: 12px;
+        width: 185px;
+        /*        margin-left: 80px;*/
+    }
+    .feedback-outer{
+        padding: 50px 25px;
+        padding-bottom: 0;
+    }
+    .feedback-handle{
+        font-size: 10px;
+    }
+
+    .feedback-content{
+        padding-left: 80px;
+    }
+    
+
+}
+
+@media only screen and (min-width: 920px) and (max-width:1439px) {
+
+    .feedback-section{
+        margin-top:30px;
+        padding: 0 50px;
+        position: relative;
+    }
+
+
+    .feedback-text{
+        margin-bottom: 10px;
+        font-size: 14px;
+        height: 90px;
+    }
+
+    .feedback-handle{
+        font-size: 12px;
+        display: inline-block;
+
+    }
+
+
+    .parallax img.left {
+        left: 3px;
+        top: -108px;
+        position: absolute;
+        max-height: 100%;
+        max-width: 400px;
+        z-index: -1;
+
+    }
+    .parallax img.right {
+        right: 12px;
+        top: -110px;
+        position: absolute;
+        max-height: 100%;
+        max-width: 400px;
+        z-index: -1;
+
+
+    }
+
+
+    .feedback-outer{
+        padding: 0 70px;
+
+    }
+    .feedback-outer .fb-left{
+        float: left; padding: 0 50px;
+    }
+
+    .feedback-outer .fb-right{
+        float: left; padding: 0 50px;
+
+    }
+
+    /*
+    .feedback-pic{
+    max-width: 100px; 
+    float: left; 
+    padding: 15px 0;
+}
+    */
+    .feedback-pic img{
+        max-width: 65px;
+        max-height: 65px;
+    }
+
+    .feedback-content{        
+
+        float: right;
+        padding: 0 20px;
+        width: calc(100% - 65px);
+
+    }
+
+}

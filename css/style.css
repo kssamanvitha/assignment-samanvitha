@@ -1,0 +1,106 @@
+body{   
+    font-family: 'Roboto', sans-serif;
+        -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+        -webkit-font-smoothing: antialiased;
+    
+}
+header a, header a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+.hidden{
+    display: none;   
+}
+
+.material-icons{
+
+    vertical-align: middle;
+}
+
+
+@media only screen and (min-width: 640px)  and (max-width: 919px){
+    .tablet-show {
+        display: block !important;
+    }
+    section {
+        margin: auto;
+        max-width: 1440px;
+        height: 52.5vw;
+        max-height: 540px;
+    }
+}
+
+@media only screen and (max-width: 639px)
+{
+    .mobile-show {
+        display: block !important;
+
+    }
+
+    .mobile-hide{
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 920px){
+
+    .desktop-show {
+        display: block !important;
+    }
+
+    body {
+        font-size: 18px;
+
+    }
+}
+
+@media only screen and (min-width: 920px) and (max-width:1439px) {
+
+    section {
+        height: 43.5vw;
+    }
+    .feature-btn .material-icons{
+        vertical-align: middle;
+        line-height: 14px !important;
+
+    }
+}
+
+@media only screen and (min-width: 640px)  and (max-width: 919px){
+    section {
+        height: 43.5vw;
+    }
+   
+}
+
+.tinyscreen{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9999;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+/*for screen below 324px */
+@media only screen and (max-width: 324px) {
+    .tinyscreen{
+        display: block;
+    }
+}
+
+
+
+
+
